@@ -1,0 +1,168 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+    animation: backgroundBG 7s infinite;
+}
+
+
+
+h1{
+    color: brown;
+}
+
+
+img{
+    animation: imgsize 5s infinite;
+}
+
+
+.flex-container{
+    display: flex;
+    width: 75%;
+    height: 25vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+
+.item1{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: dashed black;
+    border-radius: 10%;
+    background-color: peachpuff; 
+    animation: BorderC 5s infinite;
+    text-align: center;
+    
+    
+}
+
+.item2{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: dashed black;
+    border-radius: 10%;
+    background-color: peachpuff;
+    text-align: center;
+}
+
+.item3{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: dashed black;
+    border-radius: 10%;
+    background-color: peachpuff;
+    animation: TextC 5s infinite;
+    text-align: center;
+    
+}
+
+.item4{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: dashed black;
+    border-radius: 10%;
+    background-color: peachpuff;
+    text-align: center;
+    
+}
+.item5{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: dashed black;
+    border-radius: 10%;
+    background-color: peachpuff;
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* Define The Animation */
+@keyframes backgroundBG{
+    /* stage - properties - values */
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: gold;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+
+@keyframes imgsize{
+   0%{
+    width: 75%;
+   } 
+   50%{
+    width: 50%;
+   }
+   100%{
+    width: 75%;
+   }
+}
+
+@keyframes BorderC{
+    0%{
+        border-color: blueviolet;
+    }
+    50%{
+        border-color: darkcyan;
+    }
+    100%{
+        border-color: darkorange;
+    }
+}
+
+@keyframes TextC{
+    0%{
+        color: blueviolet;
+    }
+    50%{
+        color: darkcyan;
+    }
+    100%{
+        color: darkorange;
+    }
+}
+
+.no-ani{
+    animation: none;
+    width: 75%;
+}
+
+.no-ani2{
+    animation: none;
+    width: 75%;
+}
+
+.no-ani3{
+    animation: none;
+    width: 75%;
+}
+
+.no-ani4{
+    animation: none;
+    width: 75%;
+}
